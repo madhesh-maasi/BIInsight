@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bi-insight-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/biInsight/BiInsightWebPart.js",
+          "manifest": "./src/webparts/biInsight/BiInsightWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BiInsightWebPartStrings": "lib/webparts/biInsight/loc/{locale}.js"
+  }
+}
